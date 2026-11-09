@@ -177,7 +177,7 @@ const Hero = () => {
             <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl from-cyan-500/10 via-indigo-500/5 to-transparent rounded-bl-full pointer-events-none"></div>
 
             <p className="text-slate-200 text-lg sm:text-xl leading-relaxed font-normal">
-              My name is <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 via-sky-200 to-indigo-300">Ilinca</span> — Computer Science graduate pursuing an MSc in Databases at Babeș-Bolyai University. I love building full-stack applications, working with APIs and AI models, petting cats <Cat className="inline w-5 h-5 text-amber-400 -mt-1 mx-0.5 animate-pulse" />, and playing classical guitar <Music className="inline w-5 h-5 text-pink-400 -mt-1 mx-0.5" />.
+              My name is <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 via-sky-200 to-indigo-300">Ilinca Mareș</span> — Computer Science graduate pursuing an MSc in Databases at Babeș-Bolyai University. I love building full-stack applications, working with APIs and AI models, petting cats <Cat className="inline w-5 h-5 text-amber-400 -mt-1 mx-0.5 animate-pulse" />, and playing classical guitar <Music className="inline w-5 h-5 text-pink-400 -mt-1 mx-0.5" />.
             </p>
           </div>
 
