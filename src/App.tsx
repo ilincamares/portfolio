@@ -80,6 +80,8 @@ const projects = [
   }
 ];
 
+type Project = (typeof projects)[number];
+
 const experiences = [
   {
     role: 'Software Developer Intern',
@@ -217,7 +219,7 @@ const Hero = () => {
   );
 };
 
-const MediaMockup = ({ project }) => {
+const MediaMockup = ({ project }: { project: Project }) => {
 
   if (project.id === 'hanzitwins') {
     return (
@@ -235,7 +237,7 @@ const MediaMockup = ({ project }) => {
   }
 };
 
-const ProjectCaseStudy = ({ project }) => {
+const ProjectCaseStudy = ({ project }: { project: Project }) => {
   return (
       <article className="bg-slate-900/80 border border-slate-800/90 rounded-3xl p-6 sm:p-8 lg:p-10 backdrop-blur-xl shadow-2xl shadow-slate-950 transition-all duration-300 hover:border-slate-700">
 
